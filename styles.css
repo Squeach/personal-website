@@ -1,0 +1,149 @@
+@import "https://www.nerdfonts.com/assets/css/webfont.css";
+
+@keyframes blinkCur {
+    50% { opacity: 0.2; }
+}
+
+.cursor {
+    position: fixed;
+    width: 10px;
+    height: 16px;
+    background-color: lightgray;
+    z-index: 9999;
+    pointer-events: none;
+    animation: blinkCur 1.5s step-end infinite;
+}
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: none;
+}
+i {
+    font-family: 'Font Awesome 5 Free', 'Nerd Font', sans-serif;
+}
+#header-caption {
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+}
+
+nav {
+    background-color: blue;
+    width: 1000px;
+}
+#navigation-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    margin: 3px;
+    padding: 10px;
+    border-style: double;
+    border-top-color: rgba(255,255,255,0.6);
+    border-bottom-color: rgba(255,255,255,0.6);
+}
+.nav-links {
+    text-decoration: none;
+    color: white;
+}
+.nav-links:hover {
+    text-decoration: underline;
+    cursor: none;
+}
+
+#main-section {
+    max-width: 1000px;
+    padding: 10px;
+    justify-content: left;
+    align-content: left;
+}
+
+footer {
+    background-color: blue;
+    width: 1000px;
+    text-align: center;
+}
+#footer-text {
+    margin: 3px;
+    padding: 10px;
+    border-style: double;
+    border-top-color: rgba(255,255,255,0.6);
+    border-bottom-color: rgba(255,255,255,0.6);
+}
+.links {
+    text-decoration: none;
+    color: #55FF55;
+    font-weight: bold;
+}
+.links:hover {
+    text-decoration: underline;
+    color: lime;
+    cursor: none;
+}
+#web-source {
+    color: #55FF55;
+    text-decoration: none;
+}
+#web-source:hover {
+    cursor: none;
+    color: lime;
+    text-decoration: underline;
+}
+
+#about-section {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 3px;
+    padding: 10px;
+    border-style: double;
+    border-top-color: rgba(255,255,255,0.6);
+    border-bottom-color: rgba(255,255,255,0.6);
+}
+#blog-section {
+    margin: 3px;
+    padding: 10px;
+    border-style: double;
+    border-top-color: rgba(255,255,255,0.6);
+    border-bottom-color: rgba(255,255,255,0.6);
+}
+#ws {
+    margin: 3px;
+    padding: 10px;
+    border-style: double;
+    border-top-color: rgba(255,255,255,0.6);
+    border-bottom-color: rgba(255,255,255,0.6);
+}
+.welcome-sec {
+    display: flex;
+    flex-direction: row;
+}
+.welcome-section {
+    width: 50%;
+    margin: 3px;
+    padding: 10px;
+    border-style: solid;
+    border-right-color: rgba(255,255,255,0.6);
+    border-bottom-color: rgba(255,255,255,0.6);
+}
+#welcome-section-sapphire {
+    margin: 3px;
+    padding: 10px;
+    border-style: solid;
+    border-right-color: rgba(255,255,255,0.6);
+    border-bottom-color: rgba(255,255,255,0.6);
+}
+
+#nopage {
+    text-align: center;
+    margin-top: 30vh;
+}
